@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href=/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">Über uns</a></li>
+        		<li><a href="/blog">Blog</a></li>
+        		<li><a href="/history">Logbuch</a></li>
+        		<li><a href="/galery/0">So sah unser Gelände am Anfang aus</a></li>
+        		<li><a href="/text/accelerator">Teilchenbeschleuniger</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    
+    {{ content }}
+    
+    </div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:fahrendeteilchen@gmx.de">email</a></li>
+        		<li><a href="https://github.com/fahrendeteilchen">github.com/fahrendeteilchen</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
